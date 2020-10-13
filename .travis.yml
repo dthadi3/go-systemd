@@ -2,7 +2,9 @@ dist: trusty
 sudo: required
 services:
   - docker
-
+arch:
+  - AMD64
+  - ppc64le
 language: go
 go:
   - "1.12.x"
